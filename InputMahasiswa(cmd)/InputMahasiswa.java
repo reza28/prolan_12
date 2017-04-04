@@ -1,4 +1,4 @@
-/*program ke-3*/
+/*InputMahasiswa*/
 import java.util.Scanner;
 public class InputMahasiswa
 {
