@@ -12,9 +12,9 @@ package okjek;
 public class Pelanggan extends Orang{
     
     private Pesanan[] pesanan;
-    private String alamat;
+    private final String alamat;
 
-    public Pelanggan(String alamat, String nama, String email, String nomorTelepon) {
+    public Pelanggan(String alamat, String nama, String email, String nomorTelepon){
         super(nama, email, nomorTelepon);
         this.alamat = alamat;
     }

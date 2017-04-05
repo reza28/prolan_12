@@ -20,6 +20,10 @@ private String nama, email, nomorTelepon;
         this.nomorTelepon = nomorTelepon;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getNama() {
         return nama;
     }
