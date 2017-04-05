@@ -14,7 +14,7 @@ public class Orang {
 
 private String nama, email, nomorTelepon;
 
-    public Orang(String nama, String email, String nomorTelepon) {
+    public  Orang(String nama, String email, String nomorTelepon) {
         this.nama = nama;
         this.email = email;
         this.nomorTelepon = nomorTelepon;

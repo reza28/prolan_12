@@ -11,8 +11,9 @@ package okjek;
  */
 public class Pengemudi extends Orang{
     private Pesanan[] pesanan;
-    private String nomorKendaraan;
+    private final String nomorKendaraan;
     private int rating;
+    private String nama;
 
     public Pengemudi(String nomorKendaraan, String nama, String email, String nomorTelepon) {
         super(nama, email, nomorTelepon);
@@ -42,5 +43,8 @@ public class Pengemudi extends Orang{
     public String getNomorKendaraan() {
         return nomorKendaraan;
     }
-    
+    public void setNama (String nama) {
+        this.nama = nama;
+    }
 }
+

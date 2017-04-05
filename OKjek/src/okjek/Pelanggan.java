@@ -10,6 +10,7 @@ package okjek;
  * @author reza
  */
 public class Pelanggan extends Orang{
+    
     private Pesanan[] pesanan;
     private String alamat;
 
